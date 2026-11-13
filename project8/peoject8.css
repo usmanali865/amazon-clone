@@ -1,0 +1,22 @@
+div {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    border-radius: 1000px;
+    background-color: aqua;
+    border: 20px solid rgb(245, 53, 162);
+    border-top: 20px solid black;
+    animation: spinanimate 3s ease-in 0s infinite normal;
+
+    
+}
+@keyframes spinanimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

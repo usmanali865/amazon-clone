@@ -1,0 +1,44 @@
+div
+{
+ 
+ background-color: black;
+ height: 60px;
+ color: aliceblue;
+ text-align: left;
+}
+button{
+    background-color: chocolate;
+}
+#logo{
+    color: chocolate;
+    font-size: 25px;
+}
+a {
+    margin-right: 100px;
+}
+#id1{
+    background-color: rgb(50, 177, 50, 0.5);
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+   display: inline-block;
+}
+#id2{
+    background-color: rgb(220, 253, 3, 0.5);
+     border: 2px solid black;
+      width: 100px;
+    height: 100px;
+     display: inline-block;
+}
+#id3{
+    background-color: rgb(255, 214, 8, 0.5);
+     border: 2px solid black;
+      width: 100px;
+    height: 100px;
+     display: inline-block;
+}
+#last
+{
+ height: 500px;
+ background-color: white;
+}
