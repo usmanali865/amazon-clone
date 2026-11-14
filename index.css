@@ -298,4 +298,23 @@ font-size: 1rem;
     text-align: center;
     font-size: 0.70rem;
  }
+ @media (max-width: 768px) {
+    
+    /* Navbar ko column wise set karne ke liye */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    /* Product boxes ko ek line ke bajaye aik ke neechay aik laane ke liye */
+    .shop-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        width: 90% !important; /* Har dabba mobile screen par poora fit aayega */
+        margin: 10px auto;
+    }
+}
  
